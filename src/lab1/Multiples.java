@@ -4,8 +4,12 @@ public class Multiples {
 
     public static void main(String[] args) {
 
-        int count = multiples(3, 5, 1000);
+        int count = multiples();
         System.out.println(count);
+    }
+
+    public static int multiples() {
+        return multiples(1000, 5, 3);
     }
 
     public static int multiples(int a, int b, int n) {
